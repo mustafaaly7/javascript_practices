@@ -50,3 +50,22 @@
 // console.log(now);
 // console.log(months[now]);//make an array and put the names in there and use array to get the name of month i.e jan feb
 
+// var now1 = new Date().getFullYear()// shows full year i.e 2024
+// var now2 = new Date().getTime()  // shows millisecond from 1970 - current means change hota rahega
+// var now3 = new Date().getMilliseconds()// shows milliseconds in a sec 0 - 999
+// var now4 = new Date().getDate(); // shows date 1-31
+// console.log(now1);
+// console.log(now2);
+// console.log(now3);
+// console.log(now4);
+
+
+
+
+var dob = "28 march 2004";
+var dob2 = prompt("Enter Date of birth" , " 28 march 2004")
+var now = new Date();
+var pastDate = new Date(dob2);// will show day jo us date pr hoga i.e sun and time at 00 means raat ky baray baje jb 28 march huwi
+console.log(dob);
+console.log(now);
+console.log(pastDate); 

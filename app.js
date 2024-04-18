@@ -38,3 +38,15 @@
 
 
 
+// var dayOfweek = [ "sun" ,"mon","tue","thu","fri", "sat" ];
+// var now = new Date().getDay();
+// console.log(now);
+// console.log(dayOfweek[now]);
+
+
+
+// var months = ["jan","feb","march","april","may","june","july","aug","sep","oct","nov","dec"]
+// var now = new Date().getMonth(); // shows month 0-11 
+// console.log(now);
+// console.log(months[now]);//make an array and put the names in there and use array to get the name of month i.e jan feb
+

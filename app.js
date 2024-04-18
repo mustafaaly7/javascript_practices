@@ -62,10 +62,25 @@
 
 
 
-var dob = "28 march 2004";
-var dob2 = prompt("Enter Date of birth" , " 28 march 2004")
+// var dob = "28 march 2004";
+// var dob2 = prompt("Enter Date of birth" , " 28 march 2004")
+// var now = new Date();
+// var pastDate = new Date(dob2);// will show day jo us date pr hoga i.e sun and time at 00 means raat ky baray baje jb 28 march huwi
+// console.log(dob);
+// console.log(now);
+// console.log(pastDate); 
+
+// HOW TO GET DIFFERENCE I.E YOUR AGE OR TIME DIFFEREnCE FROM ONE YEAR TO ANOTHER 
 var now = new Date();
-var pastDate = new Date(dob2);// will show day jo us date pr hoga i.e sun and time at 00 means raat ky baray baje jb 28 march huwi
-console.log(dob);
-console.log(now);
-console.log(pastDate); 
+var dob = "28 july 2003";
+var pastDate = new Date(dob); // will show dob which is "28 july 2003"
+var pastDatemil = pastDate.getTime(); // 1970 - 2004 tk ky mili secs dikhaiga jo ruk chuke hain obv
+var nowMiliSec = now.getTime()// will show every mill sec from 1970 - current
+console.log("now Milli seconds" , nowMiliSec);
+console.log("date of birth ",dob);
+console.log("past date " ,pastDate);
+console.log("past date milli seconds",pastDatemil);
+
+var diff = nowMiliSec - pastDatemil; // NOW TIME 1970 TILL NOW (WHICH IS GREATER ) - TIME FROM 1970 -2004 (WHICH IS SMALLER VALUE)
+var result = diff / (1000* 60 * 60 * 24 * 365) // 1000 MILLI SEC * 60 SECONDS * 60 MINUTE *24 HOURS * 365 DAYS 
+console.log( Math.floor(result) , "years");

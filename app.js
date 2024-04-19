@@ -70,17 +70,57 @@
 // console.log(now);
 // console.log(pastDate); 
 
-// HOW TO GET DIFFERENCE I.E YOUR AGE OR TIME DIFFEREnCE FROM ONE YEAR TO ANOTHER 
-var now = new Date();
-var dob = "28 july 2003";
-var pastDate = new Date(dob); // will show dob which is "28 july 2003"
-var pastDatemil = pastDate.getTime(); // 1970 - 2004 tk ky mili secs dikhaiga jo ruk chuke hain obv
-var nowMiliSec = now.getTime()// will show every mill sec from 1970 - current
-console.log("now Milli seconds" , nowMiliSec);
-console.log("date of birth ",dob);
-console.log("past date " ,pastDate);
-console.log("past date milli seconds",pastDatemil);
 
-var diff = nowMiliSec - pastDatemil; // NOW TIME 1970 TILL NOW (WHICH IS GREATER ) - TIME FROM 1970 -2004 (WHICH IS SMALLER VALUE)
-var result = diff / (1000* 60 * 60 * 24 * 365) // 1000 MILLI SEC * 60 SECONDS * 60 MINUTE *24 HOURS * 365 DAYS 
-console.log( Math.floor(result) , "years");
+
+
+// HOW TO GET DIFFERENCE I.E YOUR AGE OR TIME DIFFEREnCE FROM ONE YEAR TO ANOTHER 
+// var now = new Date();
+// var dob = "28 july 2003";
+// var pastDate = new Date(dob); // will show dob which is "28 july 2003"
+// var pastDatemil = pastDate.getTime(); // 1970 - 2004 tk ky mili secs dikhaiga jo ruk chuke hain obv
+// var nowMiliSec = now.getTime()// will show every mill sec from 1970 - current
+// console.log("now Milli seconds" , nowMiliSec);
+// console.log("date of birth ",dob);
+// console.log("past date " ,pastDate);
+// console.log("past date milli seconds",pastDatemil);
+
+// var diff = nowMiliSec - pastDatemil; // NOW TIME 1970 TILL NOW (WHICH IS GREATER ) - TIME FROM 1970 -2004 (WHICH IS SMALLER VALUE)
+// var result = diff / (1000* 60 * 60 * 24 * 365) // 1000 MILLI SEC * 60 SECONDS * 60 MINUTE *24 HOURS * 365 DAYS 
+// console.log( Math.floor(result) , "years");
+
+
+// --------> another example of how to get difference
+
+// var date1 = prompt("Enter any date","28 july 2004")
+// var date2 = prompt("Enter another date aswell ", "28 march 2003")
+// var date1Millisec = new Date(date1).getTime();
+// var date2Millisec = new Date(date2).getTime();
+// console.log(date1Millisec);
+// console.log(date2Millisec);
+// var diff = date1Millisec - date2Millisec;
+// var result = diff / (1000*60*60*24*365);
+// console.log(Math.floor(result) + "years");
+
+
+
+
+
+// --------------------> FUNCTION 
+// SYNTAX
+// function function_name(){
+// block of codes/statements
+
+// }
+// -----> to call/invoke /trigger function
+// Syntax
+// FUNCTION_name()
+
+// ------------> for example
+
+
+function abc(){
+    console.log("hi");
+    console.log("bye");
+}
+
+abc()

@@ -174,7 +174,26 @@
 // }
 
 function pass(btnElem){
-    console.log(btnElem.innerHTML);
+    var pass = document.getElementById("pass")
+    // console.log(btnElem.innerHTML , pass.value);
+if( btnElem.innerHTML == "Show"){
+    pass.type = "text"
+    btnElem.innerHTML = "Hide"
+    btnElem.style.backgroundColor ="red" // directly styling specific element using js or sirf function call hone pr krega ye work 
+    pass.style.backgroundColor = "black" // for styling background-color is written as backgroundColor ( camel case use hoga sirf )
+    pass.style.color = "white" // .style krke styling krskte hain ksi bh specific elemt ki via this argument or id or class html ki 
+
+}else{
+    pass.type = "password"
+    btnElem.innerHTML = "Show"
+    btnElem.style.backgroundColor ="blue"
+    pass.style.backgroundColor = "green"
+    pass.style.color = "yellow"
+
+}
+
+
+
 }
 
 

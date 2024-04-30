@@ -172,3 +172,18 @@
 // }
 
 // }
+
+function pass(btnElem){
+    console.log(btnElem.innerHTML);
+}
+
+
+
+
+
+
+
+
+
+
+

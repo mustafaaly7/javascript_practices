@@ -196,15 +196,15 @@
 
 // }
 
-function change(imgElem) {
-    console.log(imgElem.src);
-    if (imgElem.src == "file:///C:/Users/PC/Desktop/js%20practice/images/off.jpg") { // ye wala src important hai ig ye sir say puchna hay
-        imgElem.src = "./images/on.jpg"
-    } else {
-        imgElem.src = "./images/off.jpg"
+// function change(imgElem) {
+//     console.log(imgElem.src);
+//     if (imgElem.src == "file:///C:/Users/PC/Desktop/js%20practice/images/off.jpg") { // ye wala src important hai ig ye sir say puchna hay
+//         imgElem.src = "./images/on.jpg"
+//     } else {
+//         imgElem.src = "./images/off.jpg"
 
-    }
-}
+//     }
+// }
 
 
 

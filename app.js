@@ -118,9 +118,57 @@
 // ------------> for example
 
 
-function abc(){
-    console.log("hi");
-    console.log("bye");
-}
+// function abc(){
+//     console.log("hi");
+//     console.log("bye");
+// }
 
-abc()
+// abc()
+
+
+// function btn(imgElem){
+//     var flag = false ; 
+//     // console.log(imgElem.src);
+//     // imgElem.src = "./images/on.jpg"
+//     if( flag == false){
+//         imgElem.src = "./images/on.jpg"
+//         flag = true
+// // console.log(flag);
+// }else if (flag == true){
+//         flag = false
+//         imgElem.src = "./images/off.jpg"
+//     }
+// }
+
+// toggle  BUTTON FUNCTION On show password Hide Password
+
+// function pass(btnElem // this argument gets the compelete Html element jisme isko use krein to js){
+// var password = document.getElementById("password")
+// console.log(password.type , btnElem.innerHTML);
+// if(password.type == "password"){
+//     btnElem.innerHTML = "Hide"
+//     password.type = "text"
+// }else{
+//     password.type = "password"
+//     btnElem.innerHTML = "Show"
+// }
+// }
+
+
+
+
+
+
+// function paraSet(aElem){
+// // console.log(aElem)
+// var para = document.getElementById("para")
+// // console.log(para.innerHTML);
+// if(aElem.innerHTML == "See More"){
+//     para.innerHTML = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, repellendus atque voluptatibus explicabo tempora sint."
+//     aElem.innerHTML = "See Less"
+// }else{
+//     aElem.innerHTML = "See More"
+//     para.innerHTML = "Lorem ipsum dolor sit amet."
+// }
+
+// }

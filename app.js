@@ -239,7 +239,7 @@
 
 // function imgChange(imgElem){
 //     if(imgElem.className == "off"){
-//         imgElem.className += "on"
+//         imgElem.className += " on" // for concading or chaning classes together use empty space or "spacebar" cuz it acts like a string and wont read if both the classes will be together withput space like a "onoff " instead do "on off" so they can be different classes
 //     }else{
 //         imgElem.className = "off"
 //     }

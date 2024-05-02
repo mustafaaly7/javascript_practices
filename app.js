@@ -223,4 +223,47 @@
 // }
 
 
+// function imgChange(imgElem){
+// console.log(imgElem.src);
+// if(imgElem.src == "file:///C:/Users/PC/Desktop/js%20practice/images/off.jpg"){
+//     imgElem.className += "on" // ye dono classes ki properties upend / concade krdega / mix krdega
+//     imgElem.src = "./images/on.jpg"
+
+// }else{
+//     imgElem.src = "./images/off.jpg"
+// }
+
+// }
+
+
+
+// function imgChange(imgElem){
+//     if(imgElem.className == "off"){
+//         imgElem.className += "on"
+//     }else{
+//         imgElem.className = "off"
+//     }
+// }
+
+
+
+
+// function toggleImg() {
+//     var image = document.getElementById("image")
+//     // console.log("image", image.className)
+//     // if (image.className == "show") {
+//     //     image.className = "hidden"
+
+//     // } else {
+//     //     image.className = "show"
+
+//     // }
+//     var image = document.getElementById("image")
+//     // console.log(image.className)
+//     image.className += " border"
+// }
+
+
+
+
 

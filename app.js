@@ -212,15 +212,15 @@
 // how to style using classname in javascript
 
 
-function foo(){
-var head = document.getElementById("head")
-if(head.className == "show"){
-    head.className = "hide" // .classname get the class name from style.css and put all the properties of that into your element using js
-}else{
-    head.className = "show"
-}
+// function foo(){
+// var head = document.getElementById("head")
+// if(head.className == "show"){
+//     head.className = "hide" // .classname get the class name from style.css and put all the properties of that into your element using js
+// }else{
+//     head.className = "show"
+// }
 
-}
+// }
 
 
 

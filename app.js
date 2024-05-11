@@ -265,5 +265,157 @@
 
 
 
+// var para = document.getElementsByTagName("p") // means document / html mai sai jakai tag lekr aao 
+// console.log(para.length);
+// para[2].style.background = "red" // means 2nd index wale pr styling horhi hai 
+//agr sb p tag pr krni hai same styling to loop lgegi 
+// for(var i=0;i<para.length;i++){
+    //     para[i].style.background = "red" // means "i" index wale pr styling horhi hai looping ki thru array length say km means last index tk 
+
+    
+// }
+
+// ab agr sirf odd numbers pr styling krni hai tou
+
+// for(i=0; i<para.length; i = i+2){
+//     para[i].style.background = "green" // means sirf odd number  wale pr styling horhi hai 
+
+
+// }
+
+
+
+// now for even numbers wale p tagg pr styling ky liye 
+
+
+// for(var i=0; i<para.length; i++){
+
+
+//     if( i %2 === 1){
+//         para[i].style.background = "red" // means 2nd index wale pr styling horhi hai 
+
+
+//     }
+// }
+
+
+
+
+//  var arr = [[10,20,30],[40,50,60]]// multi dimensional array (2D array)
+//  for(var i=0 ; i<arr.length; i++){ // nested loop 
+//     for(var j=0 ; j<arr[i].length;j++)
+//     console.log(arr[i][j]);
+//  }
+
+
+
+// during class practice
+
+
+
+//search algortihm
+
+
+// var userInput = prompt("enter Any fruit ")
+// var arr = ["Apple", "Orange","Mango"]
+// var flag = false ; 
+
+// for(var i = 0 ; i<arr.length;i++){
+// if(userInput.toLowerCase() === arr[i].toLowerCase()){
+//     console.log("Yes we have that ");
+//     flag = true
+// break 
+
+// }
+// }
+// if(flag === false ){
+//     alert("Didnt Exist")
+// }
+
+
+// .replacement() method
+
+
+
+// var para = "hello world, hello hello hello hello "
+// var newPara = para.replace(/hello/g ,"n")
+// alert(newPara )
+
+// var userInput = prompt("Enter your name ")
+// alert(userInput[0].toUpperCase()+userInput.slice(1).toLowerCase() )
+
+
+
+var arr2D = [[10,20,30],[40,50,60],[70,80,90]]
+for(var i = arr2D.length-1 ; i >=0 ;i--){
+for(var j= arr2D[i].length-1 ; j>=0 ; j--){
+console.log(arr2D[i][j]);
+    
+}
+}
+
+
+// saad malik 
+
+
+// alert("Saad Malik")
+
+// var arr=["Mamgo","Apple","Banana"];
+// console.log(arr)
+// for(i=0;i<=arr.length;i++)
+//     {
+//         console.log(arr[i])
+//     }
+
+//     var arr=["Mamgo","Apple","Banana"];
+// // console.log(arr)
+// for (i>=arr.length;i=0;i--){
+//     console.log(arr[i])
+// }
+
+
+var inp=prompt("Enter the Input")
+var arr=["mango","Banana","Apple"]
+
+var flag=false
+
+for (var i=0;i<arr.length;i++){
+if (inp.toLowerCase() === arr[i].toLowerCase()){
+console.log("EXIST");
+flag = true
+break
+
+}
+}
+if(flag == false){
+    console.log("User Not Exist")
+}
+
+
+
+
+
+
+// var userCity = prompt("enter your city...").toLowerCase()
+// var cities = ["karachi", "lahore", "multan"]
+
+// var flag = false
+
+
+// for (var i = 0; i < cities.length; i++) {
+//     if (cities[i] == userCity) {
+//         console.log("user city exists")
+//         flag = true
+//         break
+//     }
+//     console.log(cities[i])
+// }
+
+// if (flag === false) {
+//     console.log("user city not exist ")
+// }
+
+
+
 
 

@@ -494,6 +494,16 @@
 // foo(userName) // means we pass the variable as the argument and used the prompt in it so its dynamic and changes everytime user refreshes the page
 
 
+// -------------> hoister issue must discuss and make notes abt it at all cost ( we didnt studied it yet )
+// let userName = "Mustafa"
+//  function foo(){
+//      console.log("1 Username ", userName);
+//  userName = "ali"
+// console.log("1 Username ", userName);
+
+//  }
+// foo()
+//  console.log("2 Username " ,userName);
 
 
 

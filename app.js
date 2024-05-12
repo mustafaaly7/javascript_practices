@@ -346,13 +346,13 @@
 
 
 
-var arr2D = [[10,20,30],[40,50,60],[70,80,90]]
-for(var i = arr2D.length-1 ; i >=0 ;i--){
-for(var j= arr2D[i].length-1 ; j>=0 ; j--){
-console.log(arr2D[i][j]);
+// var arr2D = [[10,20,30],[40,50,60],[70,80,90]]
+// for(var i = arr2D.length-1 ; i >=0 ;i--){
+// for(var j= arr2D[i].length-1 ; j>=0 ; j--){
+// console.log(arr2D[i][j]);
     
-}
-}
+// }
+// }
 
 
 // saad malik 
@@ -374,22 +374,22 @@ console.log(arr2D[i][j]);
 // }
 
 
-var inp=prompt("Enter the Input")
-var arr=["mango","Banana","Apple"]
+// var inp=prompt("Enter the Input")
+// var arr=["mango","Banana","Apple"]
 
-var flag=false
+// var flag=false
 
-for (var i=0;i<arr.length;i++){
-if (inp.toLowerCase() === arr[i].toLowerCase()){
-console.log("EXIST");
-flag = true
-break
+// for (var i=0;i<arr.length;i++){
+// if (inp.toLowerCase() === arr[i].toLowerCase()){
+// console.log("EXIST");
+// flag = true
+// break
 
-}
-}
-if(flag == false){
-    console.log("User Not Exist")
-}
+// }
+// }
+// if(flag == false){
+//     console.log("User Not Exist")
+// }
 
 
 
@@ -414,6 +414,84 @@ if(flag == false){
 // if (flag === false) {
 //     console.log("user city not exist ")
 // }
+
+
+// 12 may 2024 class work 
+
+
+// var fruitsVeg = [["apple","mango","banana" ],["cucumber","potato","carrot"]]
+// for(var i =0 ; i< fruitsVeg.length ; i++){
+// console.log(fruitsVeg[i]);
+// for(var j = fruitsVeg[i].length-1 ; j >=0 ;j--){
+//     console.log(fruitsVeg[i][j]);
+// }
+
+// }
+
+
+// var userName = prompt("Enter your username ")
+// function user(user){
+//     console.log(user);
+// }
+
+
+// user(userName)
+
+
+
+
+// var greeting = prompt("hello nigga")
+// function foo(salam){
+//     console.log(salam);
+// }
+// var num = 99;
+
+// function user(num1){
+//     console.log(num1);
+//     return num1;
+// }
+// var result = user(40)
+// // console.log(result);
+
+
+
+
+
+
+// There are two types of function 
+// 1. predefined functions
+// 2. userdefine functions
+// there are two types of userdefined functions aswell
+// a. parameterize function
+// b. non parameterize function
+// there are two types of parameterize function
+// i . default parameterize
+// ii . non -default parameterize
+ 
+
+
+// ----------------------> E.g of default parameterize function
+
+// function foo (num1 = 50, num2 = 60){
+// console.log(num1 , num2);
+
+// }
+
+// foo(30) // means default value parameter mai deingey and still u can edit the value when passing the argument 
+// // means default parameterize function mai parameter ki value jb default pass hogi tou woh just in case pass hogi
+
+
+
+
+
+// we can also user prompt to give arguments (dynamic )
+// E.g
+// var userName = prompt("enter your name ")
+// function foo(user){
+//     console.log(user);
+// }
+
+// foo(userName) // means we pass the variable as the argument and used the prompt in it so its dynamic and changes everytime user refreshes the page
 
 
 
